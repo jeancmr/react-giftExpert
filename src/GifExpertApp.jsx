@@ -2,7 +2,7 @@ import { useState } from "react"
 import { AddCategory, GifGrid } from "./components"
 
 export const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['Black Clover'])
+    const [categories, setCategories] = useState([])
 
     const onAddCategory = (newCategory) => {
         const lowerCaseCategories = categories.map(category => category.toLowerCase())
